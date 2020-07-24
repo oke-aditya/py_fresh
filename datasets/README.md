@@ -1,2 +1,3 @@
-# flipkart_grid_2020
-Flipkart Grid challenge 2020 Fashion Intelligence Systems
+# Datasets
+- Post the links for datasets you use here !!
+- Or add simple small datasets that you may need.
