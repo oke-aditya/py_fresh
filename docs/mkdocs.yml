@@ -1,4 +1,4 @@
-site_name: ML Template Docs
+site_name: Python Template Repository Docs
 theme:
   name: "material"
   palette:
