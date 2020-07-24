@@ -1,7 +1,7 @@
 # Files
 *.DS_Store
 *.vscode
-
+.vscode
 # dotenv
 .env
 
@@ -9,7 +9,7 @@
 docs/site
 
 # Data Folder
-data/
+# data/
 
 # Models
 *.h5
@@ -148,3 +148,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode/settings.json

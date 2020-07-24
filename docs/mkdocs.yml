@@ -1,4 +1,4 @@
-site_name: Template Repository Docs
+site_name: ML Template Docs
 theme:
   name: "material"
   palette:
