@@ -1,6 +1,5 @@
-import torch
+# Write your tests here
 
-
-def test_torch():
-    print(torch.__version__)
+def test_simple():
+    print("Hello World")
     return 1
