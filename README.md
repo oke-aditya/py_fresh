@@ -1,15 +1,15 @@
-# Template Repo for ML Projects.
+# Template Repo for python Projects.
 
-![tests](https://github.com/oke-aditya/template_ml/workflows/tests/badge.svg)
-![Check Formatting](https://github.com/oke-aditya/template_ml/workflows/Check%20Formatting/badge.svg)
-![Build mkdocs](https://github.com/oke-aditya/template_ml/workflows/Build%20mkdocs/badge.svg)
+![tests](https://github.com/oke-aditya/template_python/workflows/tests/badge.svg)
+![Check Formatting](https://github.com/oke-aditya/template_python/workflows/Check%20Formatting/badge.svg)
+![Build mkdocs](https://github.com/oke-aditya/template_python/workflows/Build%20mkdocs/badge.svg)
 
 
 A template repository to make all machine learning projects.
 
-## How this speeds up your ML development
+## How this speeds up your python development
 
-Most people find it hard to package their ML code and do not know how to set up the repo for it.
+Most people find it hard to package their python code and do not know how to set up the repo for it.
 
 
 If the repository is setup in a wrong way, it would become hard to package and deploy the code later on as well.
@@ -22,8 +22,8 @@ easy PyPi publishing support and docker files.
 This serves as a template to quickly have these things setup in your repo.
 Machine Learning Repos created from this template can easily be deployed and shipped. It becomes hassle free and easy to debug too.
 
-You can add your code in `template_ml` folder. Since this is a package make sure that imports are
-from the root. i.e. `from template_ml import stuff`
+You can add your code in `template_python` folder. Since this is a package make sure that imports are
+from the root. i.e. `from template_python import stuff`
 
 
 ## How to use this: -
@@ -33,8 +33,8 @@ from the root. i.e. `from template_ml import stuff`
 
 ## Files to edit to set up your project.
 
-- You would need to edit some files in order to rename this from `template_ml` to your required repo name.
-- Just replace `pip install git+git://github.com/oke-aditya/template_ml.git` in the `mk-docs-build.yml` and `mk-docs-deploy.yml` workflows in .github folder with your package git url. This will set up docs.
+- You would need to edit some files in order to rename this from `template_python` to your required repo name.
+- Just replace `pip install git+git://github.com/oke-aditya/template_python.git` in the `mk-docs-build.yml` and `mk-docs-deploy.yml` workflows in .github folder with your package git url. This will set up docs.
 - Please edit **ALL** the `.md` files to include description that you need.
 - Edit the `requirements.txt` and `requirements-extra.txt` (optionally).
 - Edit the `.gitingore` and `.dockerignore` files if anything extra is needed. I have included most stuff in them.
