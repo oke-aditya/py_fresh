@@ -52,7 +52,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install setuptools wheel
           python setup.py sdist bdist_wheel
-      - name: Install package
+
+      - name: Install package on Ubuntu
+        if: runner.os == 'Linux'
         run: |
           python -m pip install --upgrade pip
           pip install virtualenv
@@ -61,3 +63,25 @@ jobs:
           pip install dist/*
           cd .. & python
           deactivate ; rm -rf vEnv
+      
+      - name: Install package on Mac
+        if: runner.os == 'macOS'
+        run: |
+          python -m pip install --upgrade pip
+          pip install virtualenv
+          virtualenv vEnv ; source vEnv/bin/activate
+          pip install flake8 pytest pytest-cov
+          pip install dist/*
+          cd .. & python
+          deactivate ; rm -rf vEnv
+      
+      - name: Install package on Windows
+        if: runner.os == 'windows'
+        run: |
+          python -m pip install --upgrade pip
+          pip install virtualenv
+          virtualenv vEnv ; venv\Scripts\activate.bat
+          pip install flake8 pytest pytest-cov
+          pip install dist/*
+          cd .. & python
+          deactivate ; rm -r vEnv
