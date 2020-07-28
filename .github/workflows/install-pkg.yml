@@ -83,6 +83,6 @@ jobs:
           virtualenv vEnv ; venv\Scripts\activate.bat
           pip install flake8 pytest pytest-cov
           cd .. & python
-          deactivate ; rm -r vEnv
+          venv\Scripts\deactivate.bat ; rm -r vEnv
 
 # pip install dist/* Isn't working on windows, need a workaround.
