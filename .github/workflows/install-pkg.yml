@@ -55,5 +55,5 @@ jobs:
           virtualenv vEnv ; source vEnv/bin/activate
           pip install flake8 pytest pytest-cov
           pip install dist/*
-          cd .. & python -c "print(Hello World)"
+          cd .. & python print(Hello World)
           deactivate ; rm -rf vEnv
