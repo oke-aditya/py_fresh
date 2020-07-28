@@ -1,9 +1,11 @@
 # Template Repo for python Projects.
 
-![tests](https://github.com/oke-aditya/template_python/workflows/tests/badge.svg)
+![CI Tests](https://github.com/oke-aditya/template_python/workflows/CI%20Tests/badge.svg)
 ![Check Formatting](https://github.com/oke-aditya/template_python/workflows/Check%20Formatting/badge.svg)
 ![Build mkdocs](https://github.com/oke-aditya/template_python/workflows/Build%20mkdocs/badge.svg)
-
+![Deploy mkdocs](https://github.com/oke-aditya/template_python/workflows/Deploy%20mkdocs/badge.svg)
+![PyPi Release](https://github.com/oke-aditya/template_python/workflows/PyPi%20Release/badge.svg)
+![Install Package](https://github.com/oke-aditya/template_python/workflows/Install%20Package/badge.svg)
 
 A template repository to make all machine learning projects.
 
