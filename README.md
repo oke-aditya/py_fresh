@@ -61,12 +61,12 @@ Raise a PR if you have built your project with this template and I will add it h
 
 ### Inspirations: -
 This template was created using lot of repositories , it include these
-- [fastai nbdev](https://github.com/fastai/nbdev_template
+- [fastai nbdev](https://github.com/fastai/nbdev_template)
 -  Made With ML [boilerplate](https://github.com/madewithml/boilerplate).
 - [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning)
 - [mantisshrimp](https://github.com/airctic/mantisshrimp)
 
-- Huge credit to these repos, it would be hard to make this without them.
+Huge credit to these repos, it would be hard to make this without them.
 
 This template is diffrent from above as this lays emphasis on bundling code in python packages and containers thus ensuring portability.
 
