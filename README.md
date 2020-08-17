@@ -55,12 +55,18 @@ Also please read the `README` files that are present in the folders. They will h
 **Note: -** These repos might have diverted little bit from this template.
 
 - [PyTorch CNN trainer](https://github.com/oke-aditya/pytorch_cnn_trainer.git).
+- [Fashion Intel](https://github.com/oke-aditya/fashion_intel)
 
 Raise a PR if you have built your project with this template and I will add it here !!
 
 ### Inspirations: -
 This template was created using lot of repositories , it include these
-[fastai nbdev](https://github.com/fastai/nbdev_template), Made With ML [boilerplate](https://github.com/madewithml/boilerplate).
+- [fastai nbdev](https://github.com/fastai/nbdev_template
+-  Made With ML [boilerplate](https://github.com/madewithml/boilerplate).
+- [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning)
+- [mantisshrimp](https://github.com/airctic/mantisshrimp)
+
+- Huge credit to these repos, it would be hard to make this without them.
 
 This template is diffrent from above as this lays emphasis on bundling code in python packages and containers thus ensuring portability.
 
