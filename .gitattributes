@@ -1,4 +1,5 @@
 # Basic .gitattributes for a python repo.
+# Taken from https://github.com/alexkaratarakis/gitattributes
 
 # Source files
 # ============
