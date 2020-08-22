@@ -1,3 +1,21 @@
+# git
 .git
-**/__pycache__
+.gitattributes
+.gitignore
 *.github
+
+# python
+**/__pycache__
+
+# Common
+README.md
+CHANGELOG.md
+docker-compose.yml
+Dockerfile
+
+# JetBrains
+.idea
+
+# VScoder
+.vscode
+
