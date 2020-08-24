@@ -1,0 +1,27 @@
+# Inspired from https://github.com/seanfisk/python-project-template/blob/master/.editorconfig
+
+# -*- mode: conf-unix; -*-
+
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# defaults
+[*]
+insert_final_newline = true
+
+# 4 space indentation
+[*.{ini,py,py.tpl,rst}]
+indent_style = space
+indent_size = 4
+
+# 4-width tabbed indentation
+[*.{sh,bat.tpl,Makefile.tpl}]
+indent_style = tab
+indent_size = 4
+
+# 2-width space indentation for GitHub / Travis actions and yml files.
+[*.{yml}]
+indent_style = space
+indent_size = 2
