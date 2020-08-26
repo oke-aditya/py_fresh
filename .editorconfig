@@ -9,6 +9,7 @@ root = true
 
 # defaults
 [*]
+end_of_line = lf
 insert_final_newline = true
 
 # 4 space indentation
