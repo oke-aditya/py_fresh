@@ -1,6 +1,7 @@
 # Files
 *.DS_Store
 *.vscode
+*.vs
 .vscode
 # dotenv
 .env
