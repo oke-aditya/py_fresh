@@ -8,14 +8,17 @@
 **/__pycache__
 
 # Common
-README.md
-CHANGELOG.md
+*.md
 docker-compose.yml
 Dockerfile
 
 # JetBrains
 .idea
 
-# VScoder
-.vscode
+# Configutration files
+.editorconfig
+
+# Editor files
+*.vscode
+*.vs
 

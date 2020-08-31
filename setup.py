@@ -19,7 +19,10 @@ for o in expected:
 setup_cfg = {o: cfg[o] for o in cfg_keys}
 
 licenses = {
-    "mit": ("MIT License", "MIT License (MIT)",),
+    "mit": (
+        "MIT License",
+        "MIT License (MIT)",
+    ),
 }
 statuses = [
     "1 - Planning",

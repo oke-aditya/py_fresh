@@ -6,6 +6,8 @@
 ![Deploy mkdocs](https://github.com/oke-aditya/template_python/workflows/Deploy%20mkdocs/badge.svg)
 ![PyPi Release](https://github.com/oke-aditya/template_python/workflows/PyPi%20Release/badge.svg)
 ![Install Package](https://github.com/oke-aditya/template_python/workflows/Install%20Package/badge.svg)
+[![codecov](https://codecov.io/gh/oke-aditya/template_python/branch/master/graph/badge.svg)](https://codecov.io/gh/oke-aditya/template_python)
+
 
 A template repository to make all machine learning projects.
 

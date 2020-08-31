@@ -44,8 +44,8 @@ $ git pull upstream master
 ```bash
 $ git checkout -b feature-name
 $ git branch
- master 
- * feature_name: 
+ master
+ * feature_name:
 ```
 
 ## Step 4: Make changes, and commit your file changes
@@ -74,7 +74,7 @@ instructions in [docs](https://cli.github.com/manual/installation) .
 #### 1. Create a pull request using GitHub CLI
 
 ```bash
-# Fill up the PR title and the body 
+# Fill up the PR title and the body
 gh pr create -B master -b "enter body of PR here" -t "enter title"
 ```
 
@@ -84,13 +84,13 @@ You can confirm that your PR has been created by running the following
 command, from the template_python folder:
 
 ```bash
-gh pr list 
+gh pr list
 ```
 
 You can also check the status of your PR by running:
 
 ```bash
-gh pr status 
+gh pr status
 ```
 
 More detailed documentation can be found
@@ -152,5 +152,5 @@ template_python repo.
 
 > **note**
 >
-> Template_python repository has CI checking. It will automatically check your code
+> template_python repository has CI checking. It will automatically check your code
 > for build as well.

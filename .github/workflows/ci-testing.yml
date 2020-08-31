@@ -38,5 +38,15 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest tests
-        
+        pytest tests/
+    - name: Generate Coverage Report
+      run: |
+        pytest tests/ --cov=template_python --cov-report=xml
+    - name: Upload Coverage to CodeCov
+      uses: codecov/codecov-action@v1
+      with:
+        file: ./coverage.xml
+        env_vars: OS,PYTHON
+        name: codecov-umbrella
+        fail_ci_if_error: false
+
