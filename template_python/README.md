@@ -1,12 +1,22 @@
 # How to structure the code ?
 
-- Usually it is good practice to divide code into data, model, engine, train files.
-- If you have more than one model / API create another folder and place python files there.
+- The `src` folder provides a generic implementation of a python API.
+
+```
+app.py        Your flask / FastAPI / Django app.
+engine.py     Main logic of the problem you want to solve.
+utils.py      All utility functions required.
+config.py     Configurable parameters or re-usable global variables.
+data.py       Database connections or data loading utilities.
+model.py      Django or Machine Learning models you want to use.
+train.py      Traning the models (for ML projects)
+predict.py    Predicting using the models (for ML projects)
+```
 
 - It is important to include `__init__.py` folder otherwise the package will not be able to import
 functions / classes.
 
-- In the `__init__.py` folder import stuff as you need. E.g. `from template_ml.ml_src.app import *`
+- In the `__init__.py` folder import stuff as you need. E.g. `from template_python.src.app import *`
 
-- Use imports relative to `template_ml` do not use relative imports. This is a better practice.
+- Use imports from `template_python` try to avoid relative imports. This is a better practice.
 
