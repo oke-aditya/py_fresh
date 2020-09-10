@@ -67,7 +67,7 @@ This template was created using lot of repositories , it include these
 - [fastai nbdev](https://github.com/fastai/nbdev_template)
 -  Made With ML [boilerplate](https://github.com/madewithml/boilerplate).
 - [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning)
-- [mantisshrimp](https://github.com/airctic/mantisshrimp)
+- [IceVision](https://github.com/airctic/icevision)
 
 Huge credit to these repos, it would be hard to make this without them.
 
