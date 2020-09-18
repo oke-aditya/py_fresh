@@ -6,6 +6,9 @@
 # dotenv
 .env
 
+# GitHub Codespaces Pythonenv
+pythonenv*/
+
 # Docs
 docs/site
 
