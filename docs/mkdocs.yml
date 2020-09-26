@@ -1,4 +1,4 @@
-site_name: Python Template Repository Docs
+site_name: Py_fresh docs
 theme:
   name: "material"
   palette:
@@ -9,7 +9,7 @@ theme:
     # scheme: default Use this for light mode
 
 docs_dir: templates
-repo_url: https://github.com/oke-aditya/template_python
+repo_url: https://github.com/oke-aditya/py_fresh
 markdown_extensions:
   - codehilite
   - pymdownx.superfences:
@@ -27,4 +27,4 @@ extra_javascript:
 nav:
   - Home: index.md
   - Contributing: contributing.md
-  - Using This Template: using_template.md 
+  - Using This Template: using_template.md

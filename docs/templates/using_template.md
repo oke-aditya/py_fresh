@@ -5,8 +5,8 @@
 
 ## Files to edit to set up your project.
 
-- You would need to edit some files in order to rename this from `template_python` to your required repo name.
-- Just replace `pip install git+git://github.com/oke-aditya/template_python.git` in the `mk-docs-build.yml` and `mk-docs-deploy.yml` workflows in .github folder with your package git url. This will set up docs.
+- You would need to edit some files in order to rename this from `py_fresh` to your required repo name.
+- Just replace `pip install git+git://github.com/oke-aditya/py_fresh.git` in the `mk-docs-build.yml` and `mk-docs-deploy.yml` workflows in .github folder with your package git url. This will set up docs.
 - You may need to edit the CI, installation and deployment yml files in .github folder. They need minimal editing for new project.
 - Please edit **ALL** the `.md` files to include description that you need.
 - Edit the `.gitingore` and `.dockerignore` files if anything extra is needed. I have included most stuff in them.

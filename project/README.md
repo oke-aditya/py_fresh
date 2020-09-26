@@ -16,7 +16,7 @@ predict.py    Predicting using the models (for ML projects)
 - It is important to include `__init__.py` folder otherwise the package will not be able to import
 functions / classes.
 
-- In the `__init__.py` folder import stuff as you need. E.g. `from template_python.src.app import *`
+- In the `__init__.py` folder import stuff as you need. E.g. `from project.src.app import *`
 
-- Use imports from `template_python` try to avoid relative imports. This is a better practice.
+- Use imports from `project` try to avoid relative imports. This is a better practice.
 
