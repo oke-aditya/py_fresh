@@ -4,9 +4,14 @@ FROM ubuntu:latest
 
 ARG PYTHON_VERSION=3.6
 
+ENV TZ=Asia/Kolkata
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
 # This is one of the best practice. 
 # This technique is known as “cache busting”.
 RUN apt-get update && apt-get install -y --no-install-recommends \
+         ca-certificates \
+         apt-utils \
          build-essential \
          cmake \
          git \
@@ -32,7 +37,6 @@ ENV PATH /home/containeruser/conda/bin:$PATH
 # We need only the master branch not all branches
 
 COPY requirements.txt  requirements.txt
-COPY requirements-extra.txt requirements-extra.txt
+COPY requirements-dev.txt requirements-dev.txt
 RUN pip install -r requirements.txt && \
-    pip install -r requirements-extra.txt &&
-
+    pip install -r requirements-dev.txt
