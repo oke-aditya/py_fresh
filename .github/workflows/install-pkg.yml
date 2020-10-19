@@ -39,13 +39,13 @@ jobs:
       # max-parallel: 6
       matrix:
         os: [ubuntu-latest, windows-2019, macOS-10.15] 
-        python-version: [3.6, 3.7, 3.8]
+        python-version: [3.6, 3.7, 3.8, 3.9]
 
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-python@v2
         with:
-          python-version: $${{ matrix.python-version }}
+          python-version: ${{ matrix.python-version }}
 
       - name: Create and Install package on Ubuntu
         if: runner.os == 'Linux'
