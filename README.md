@@ -59,6 +59,7 @@ Also please read the `README` files that are present in the folders. They will h
 - [PyTorch CNN trainer](https://github.com/oke-aditya/pytorch_cnn_trainer.git).
 - [Fashion Intel](https://github.com/oke-aditya/fashion_intel)
 - [PyTorch Image Similarity](https://github.com/oke-aditya/image_similarity)
+- [quicktext: A Fast & Simple Text Detection Framework](https://github.com/GDGVIT/quicktext)
 
 Raise a PR if you have built your project with this template and I will add it here !!
 
