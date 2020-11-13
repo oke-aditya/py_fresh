@@ -4,7 +4,7 @@
 
 ## Step 1: Forking and Installing py_fresh
 
-​1. Fork the repo to your own github account. click the Fork button to
+​1. Fork the repo to your own github account. Click the Fork button to
 create your own repo copy under your GitHub account. Once forked, you're
 responsible for keeping your repo copy up-to-date with the upstream
 py_fresh repo.
@@ -17,7 +17,7 @@ changes:
 $ git clone https://github.com/oke-aditya/py_fresh.git
 ```
 
-3.  Install the requirments. You many use miniconda or conda as well.
+3.  Install the requirements. You may use miniconda or conda as well.
 
 ```bash
 $ pip install -r requirements.txt
@@ -69,7 +69,7 @@ Add more commits, if necessary.
 ### A. Method 1: Using GitHub CLI
 
 Preliminary step (done only once): Install gh by following the
-instructions in [docs](https://cli.github.com/manual/installation) .
+instructions in [docs](https://cli.github.com/manual/installation).
 
 #### 1. Create a pull request using GitHub CLI
 
