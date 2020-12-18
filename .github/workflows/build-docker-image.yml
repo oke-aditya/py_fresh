@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Build Docker Image
 
 on:
   push:
@@ -12,9 +12,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, ubuntu-20.04]
+        os: [ubuntu-latest]
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag py_fresh:$(date +%s)
+      run: docker build . --file Dockerfile

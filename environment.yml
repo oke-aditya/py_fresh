@@ -1,0 +1,7 @@
+# Useful for conda packaging and CI
+name: base
+channels:
+  - defaults
+dependencies:
+  - python>=3.6
+  - pip

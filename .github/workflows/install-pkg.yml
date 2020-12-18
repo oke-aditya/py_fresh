@@ -38,8 +38,8 @@ jobs:
       fail-fast: false
       # max-parallel: 6
       matrix:
-        os: [ubuntu-latest, windows-2019, macOS-10.15] 
-        python-version: [3.6, 3.7, 3.8, 3.9]
+        os: [ubuntu-latest]
+        python-version: [3.6, 3.7, 3.8]
 
     steps:
       - uses: actions/checkout@master
@@ -52,37 +52,33 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install setuptools wheel
-          python setup.py sdist bdist_wheel
+          python setup.py bdist_wheel
           pip install virtualenv
           virtualenv vEnv ; source vEnv/bin/activate
-          pip install flake8 pytest pytest-cov
           pip install dist/*
           cd .. & python
           deactivate ; rm -rf vEnv
-      
+
       - name: Install package on Mac
         if: runner.os == 'macOS'
         run: |
           python -m pip install --upgrade pip
           python -m pip install setuptools wheel
-          python setup.py sdist bdist_wheel
+          python setup.py bdist_wheel
           pip install virtualenv
           virtualenv vEnv ; source vEnv/bin/activate
-          pip install flake8 pytest pytest-cov
           pip install dist/*
           cd .. & python
           deactivate ; rm -rf vEnv
-      
+
       - name: Install package on Windows
         if: runner.os == 'windows'
         run: |
           python -m pip install --upgrade pip
           python -m pip install setuptools wheel
-          python setup.py sdist bdist_wheel
+          python setup.py bdist_wheel
           pip install virtualenv
           virtualenv vEnv ; venv\Scripts\activate.bat
-          pip install flake8 pytest pytest-cov
           cd .. & python
           venv\Scripts\deactivate.bat ; rm -r vEnv
-
 # pip install dist/* Isn't working on windows, need a workaround.

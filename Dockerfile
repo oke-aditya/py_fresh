@@ -37,6 +37,6 @@ ENV PATH /home/containeruser/conda/bin:$PATH
 # We need only the master branch not all branches
 
 COPY requirements.txt  requirements.txt
-COPY requirements-dev.txt requirements-dev.txt
+COPY requirements-test.txt requirements-test.txt
 RUN pip install -r requirements.txt && \
-    pip install -r requirements-dev.txt
+    pip install -r requirements-test.txt

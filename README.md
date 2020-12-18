@@ -1,13 +1,19 @@
 # Template Repo for python Projects.
 
+<div align="center">
+
 ![CI Tests](https://github.com/oke-aditya/template_python/workflows/CI%20Tests/badge.svg)
-![Check Formatting](https://github.com/oke-aditya/template_python/workflows/Check%20Formatting/badge.svg)
+![Conda CI Tests](https://github.com/oke-aditya/py_fresh/workflows/Conda%20CI%20Tests/badge.svg)
+![Build Docker Image](https://github.com/oke-aditya/py_fresh/workflows/Build%20Docker%20Image/badge.svg)
+![Check Code formatting](https://github.com/oke-aditya/py_fresh/workflows/Check%20Code%20formatting/badge.svg)
+![CodeQL](https://github.com/oke-aditya/py_fresh/workflows/CodeQL/badge.svg)
 ![Build mkdocs](https://github.com/oke-aditya/template_python/workflows/Build%20mkdocs/badge.svg)
 ![Deploy mkdocs](https://github.com/oke-aditya/template_python/workflows/Deploy%20mkdocs/badge.svg)
 ![PyPi Release](https://github.com/oke-aditya/template_python/workflows/PyPi%20Release/badge.svg)
 ![Install Package](https://github.com/oke-aditya/template_python/workflows/Install%20Package/badge.svg)
 [![codecov](https://codecov.io/gh/oke-aditya/template_python/branch/master/graph/badge.svg)](https://codecov.io/gh/oke-aditya/template_python)
 
+</div>
 
 A template repository to make all machine learning projects.
 

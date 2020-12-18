@@ -3,6 +3,7 @@
 *.vscode
 *.vs
 .vscode
+*.idea
 # dotenv
 .env
 
